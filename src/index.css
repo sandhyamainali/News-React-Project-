@@ -1,0 +1,18 @@
+ul{
+    list-style: none;
+    
+}
+.media{
+    justify-content: end;
+    /* text-align: end; */
+}
+.a:hover{
+    background-color: red;
+    border-radius: 70%;
+    padding: 3px;
+}
+.b:hover{
+    background-color: #fff;
+    border-radius: 55%;
+    padding: 1px;
+}
