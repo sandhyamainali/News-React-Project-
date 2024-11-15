@@ -11,7 +11,7 @@ import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 function Footer() {
     return (
         <div className='container bg-dark text-white'>
-            <div className="row">
+            <div className="row py-5">
                 <div className="col-lg-4">
                     <h4 className='px-3 py-3'>About Us</h4>
                     <ul>
