@@ -1,11 +1,10 @@
 import React from 'react'
 import { MdPeopleAlt } from "react-icons/md";
 import { BiSolidStopwatch } from "react-icons/bi";
-import Latest from './Latest';
-
-function Home() {
+function Home2() {
   return (
     <div className='container'>
+       <p>hello!!</p>
       {/* SLider img start */}
       <div className="row">
         <div className="col-lg-8">
@@ -73,9 +72,20 @@ function Home() {
         </div>
       </div>
 
-    </div>   
-         
+{/* top end */}
+{/* categories start */}
+<div className="row">
+  <div className="col-lg-4 col-md-4">
+    <div>
+      <img src="" alt="" />
+    </div>
+  </div>
+</div>
+
+{/* categories end */}
+    </div>        
   )
 }
+  
 
-export default Home
+export default Home2

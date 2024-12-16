@@ -46,3 +46,55 @@ ul{
 .img{
     background-image: cover;
 }
+.img:hover{
+    background-color: #ED0000;
+}
+/* .img2{
+    background-image: -moz-linear-gradient(white,black),url(https://utouchdesign.com/themes/envato/altroznews/images/news/tech/gadget2.jpg);
+} */
+ .cap{
+    position: absolute;
+ }
+ .n1{
+    border-radius:10%;
+   transition: 0.5s;
+ }
+ .n1:hover{
+    transform: scale(0.9);
+ }
+ .n2{
+    transition: 0.5s;
+    
+ }
+ .n2:hover{
+    transform: scale(0.9);
+ }
+ .con{
+   
+    display: flex;
+    gap: 20px;
+    
+ }
+ .heading{
+    font-size: 15px;
+    font-weight: bold;
+    padding: 1em;
+   
+    
+ }
+ .img2{
+    
+    object-fit: "cover";
+     border-radius:10%;
+     display:flex;
+ }
+ .news{
+    display: inline-block;
+    border-radius: 10px;
+ }
+ .img2:hover{
+    transform: scale(0.9);
+ }
+ .img2:hover{
+    transition: 0.2s;
+ }
