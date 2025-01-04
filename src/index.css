@@ -5,8 +5,9 @@
 }
 ul{
     list-style: none;
-    
+ 
 }
+
 .media{
     justify-content: end;
     /* text-align: end; */
@@ -58,11 +59,14 @@ ul{
  .n1{
     border-radius:10%;
    transition: 0.5s;
+   
+   
  }
  .n1:hover{
     transform: scale(0.9);
  }
  .n2{
+    border-radius:15%;
     transition: 0.5s;
     
  }
@@ -98,3 +102,37 @@ ul{
  .img2:hover{
     transition: 0.2s;
  }
+ .style{
+
+    z-index:1;
+    position:absolute;
+    top:22em;
+    left: 53em;
+    width: 22%;
+    height: 54%;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0);
+    
+ }
+ /* .text{
+    position:relative;
+    z-index:1;
+ } */
+ a{
+    color:#fff;
+    text-decoration: none;
+    font-size:15px;
+
+ }
+ .head{
+    z-index:1;
+    position:absolute;
+    top:39em;
+    left: 53em;
+    width: 22%;
+    height: 54%;
+    font-size: medium;
+    background-color: rgba(0, 0, 0, 0);
+ }
+ 
+ 

@@ -3,7 +3,8 @@ import Header from './Header'
 import Footer from './Footer'
 import Home from './Home'
 import Latest from './Latest'
-import Home2 from './Home2'
+import Homeversion from './Homeversion'
+
 
 
 function App() {
@@ -12,9 +13,11 @@ function App() {
       <Header/>
      
      <Home/>
-     <Home2/>
+   
      <Latest/>
-     
+
+    
+     <Homeversion/>
      
       <Footer/>
     </div>

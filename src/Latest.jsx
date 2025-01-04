@@ -36,10 +36,11 @@ const Latest = () => {
                 <ul className="d-flex gap-3">
                     {data.slice(3, 6).map((news, index) => (
                         <li key={index} >
-
+{/* <h2 className=" heading btn btn-danger text-white">Health</h2> */}
 
                             {news.url && (
                                 <img className="img2"
+                            
                                     src={news.url}
                                     alt="News"
                                     style={{ width: "300px", height: "200px", objectFit: "cover" }}

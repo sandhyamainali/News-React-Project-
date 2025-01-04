@@ -7,7 +7,9 @@ import { IoSearchOutline } from "react-icons/io5";
 import { MdKeyboardDoubleArrowRight } from "react-icons/md";
 import { Link, Route, Routes } from 'react-router-dom';
 import Home from './Home';
-import Home2 from './Home2';
+import Homeversion from './Homeversion';
+import Latest from './Latest';
+
 
 function Header() {
     return (
@@ -54,7 +56,7 @@ function Header() {
                                 </a>
                                 <ul class="dropdown-menu ">
                                    <Link to="/"><li><a class="dropdown-item c" href="#"> <MdKeyboardDoubleArrowRight /> Home Version One</a></li></Link> 
-                                   <Link to="/Home2"> <li><a class="dropdown-item c" href="#"> <MdKeyboardDoubleArrowRight /> Home Version Two</a></li></Link>
+                                   <Link to="/Homeversion"> <li><a class="dropdown-item c" href="#"> <MdKeyboardDoubleArrowRight /> Home Version Two</a></li></Link>
                                     <li><a class="dropdown-item c" href="#"> <MdKeyboardDoubleArrowRight /> Home Version Three</a></li>
                                 </ul>
                             </li>
@@ -110,11 +112,14 @@ function Header() {
     
 }
 <><Routes>
-    <Route path='/' element={<Home />} />
+   
     
     
-    <Route path="/" element={<Home/>}/>
-    <Route path="/Home2" element={<Home2/>}/>
+    <Route path="/" element={<Home/>}/> 
+    <Route path="/latest" element={<Latest/>}/>
+    <Route path="/homeversion" element={<Homeversion/>}/>
+    
+   
 
 </Routes>
 </>
